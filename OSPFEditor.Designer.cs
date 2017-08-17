@@ -28,22 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OSPFEditor));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tscbSpeed = new System.Windows.Forms.ToolStripComboBox();
             this.tsbDeployLine = new System.Windows.Forms.ToolStripButton();
-            this.menuRouter = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.menuItemSearch = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuItemDelete = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuDeploy = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.menuItemDeploy = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
-            this.menuRouter.SuspendLayout();
-            this.menuDeploy.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStripContainer1
@@ -71,7 +63,7 @@
             this.tsbDeployLine});
             this.toolStrip1.Location = new System.Drawing.Point(3, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(225, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(194, 25);
             this.toolStrip1.TabIndex = 1;
             // 
             // tscbSpeed
@@ -93,41 +85,6 @@
             this.tsbDeployLine.Size = new System.Drawing.Size(61, 22);
             this.tsbDeployLine.Text = "拉网线";
             // 
-            // menuRouter
-            // 
-            this.menuRouter.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuItemSearch,
-            this.menuItemDelete});
-            this.menuRouter.Name = "menuRouter";
-            this.menuRouter.Size = new System.Drawing.Size(137, 48);
-            // 
-            // menuItemSearch
-            // 
-            this.menuItemSearch.Name = "menuItemSearch";
-            this.menuItemSearch.Size = new System.Drawing.Size(136, 22);
-            this.menuItemSearch.Text = "作为起点(&M)";
-            // 
-            // menuItemDelete
-            // 
-            this.menuItemDelete.Image = ((System.Drawing.Image)(resources.GetObject("menuItemDelete.Image")));
-            this.menuItemDelete.Name = "menuItemDelete";
-            this.menuItemDelete.Size = new System.Drawing.Size(136, 22);
-            this.menuItemDelete.Text = "删除(&D)";
-            // 
-            // menuDeploy
-            // 
-            this.menuDeploy.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuItemDeploy});
-            this.menuDeploy.Name = "menuDeploy";
-            this.menuDeploy.Size = new System.Drawing.Size(149, 26);
-            // 
-            // menuItemDeploy
-            // 
-            this.menuItemDeploy.Image = ((System.Drawing.Image)(resources.GetObject("menuItemDeploy.Image")));
-            this.menuItemDeploy.Name = "menuItemDeploy";
-            this.menuItemDeploy.Size = new System.Drawing.Size(148, 22);
-            this.menuItemDeploy.Text = "放置路由器(&R)";
-            // 
             // OSPFEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -143,8 +100,6 @@
             this.toolStripContainer1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
-            this.menuRouter.ResumeLayout(false);
-            this.menuDeploy.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -155,11 +110,6 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripComboBox tscbSpeed;
         private System.Windows.Forms.ToolStripButton tsbDeployLine;
-        private System.Windows.Forms.ContextMenuStrip menuRouter;
-        private System.Windows.Forms.ToolStripMenuItem menuItemDelete;
-        private System.Windows.Forms.ContextMenuStrip menuDeploy;
-        private System.Windows.Forms.ToolStripMenuItem menuItemDeploy;
-        private System.Windows.Forms.ToolStripMenuItem menuItemSearch;
 
     }
 }
